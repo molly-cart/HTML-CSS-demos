@@ -1,0 +1,32 @@
+ [class|="intro"] {
+        background: royalblue;
+        font-weight: bold;
+       }
+       [note|="home"] {
+              background: chartreuse;
+              font-weight: bold;
+              font-size: 100px
+             }
+ [Action*="Door"] {
+       background: fuchsia;
+       font-weight: bold;
+       font-size: 100px;
+ }
+body {
+background-image: url("NoFace.JPG");
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: top;
+background-color: gray;
+}
+div {
+       width: 200px;
+       border: 7px solid red;
+       padding: 20px;
+       margin: 120px;
+       background-color: white;
+       text-align: center;
+}
+html {
+       background: linear-gradient(to right, #0066ff, #ff3300, #ff00ff)
+         }

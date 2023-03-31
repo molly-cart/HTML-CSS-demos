@@ -1,0 +1,25 @@
+#FontAwesome {
+    font-size: 50px;
+    color: blue;
+    text-shadow: 2px 4px 6px rgb(153, 5, 158);
+    margin: 20px;
+    padding: 20px;
+}
+
+#Bootstrap {
+    font-size: 35px;
+    color: red;
+    text-shadow: 2px 4px 6px black;
+    margin: 20px;
+    padding: 20px;
+}
+
+#Google {
+    font-size: 52px;
+    color: silver;
+    background-color: firebrick;
+    width: 200px;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}

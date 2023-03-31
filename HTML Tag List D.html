@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="HTML Tag List D.css">
+</head>
+<body>
+    <!--Inline data tag-->
+    <h1>The data element</h1>
+    <p>The following example displays product names but also associates each name with a product number:</p>
+    
+    <ul>
+        <li><data value="21053">Cherry Tomato</data></li>
+        <li><data value="21054">Beef Tomato</data></li>
+        <li><data value="21055">Snack Tomato</data></li>
+    </ul>
+
+    <!--Inline datalist tag-->
+    <h1>The datalist element</h1>
+    <form action="/action_page.php" method="get">
+        <label for="browser">Choose your browser from the list:</label>
+        <input list="browsers" hname="browser" id="browser">
+        <datalist id="browsers">
+            <option value="Edge"></option>
+            <option value="Firefox"></option>
+            <option value="Chrome"></option>
+            <option value="Opera"></option>
+            <option value="Safari"></option>
+        </datalist>
+        <input type="submit">
+    </form>
+    <p><strong>Note: </strong>The datalist tag is not supported in Safari 12.0 (or earlier).</p>
+
+    <!--Inline dd tag-->
+    <h1>The dl, dd, and dt elements</h1>
+    <p>These three elements are used to create a description list:</p>
+
+    <dl>
+        <dt>Japanese Dogs</dt>
+        <dd>Akita, Japanese Spitz, and Shiba Inu</dd>
+        <dt>German Dogs</dt>
+        <dd>American Eskimo, Boxer, and Poodle</dd>
+    </dl>
+
+    <!--Inline del tag-->
+    <h1>The del and ins elements + CSS</h1>
+    <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+
+    <!--Inline details element-->
+    <h1>The details and summary elements + css</h1>
+    <details>
+        <summary>Epcot Center</summary>
+        <br><p>Epcot is a theme park at Walt Disney World Resort fetauring exciting attractions, 
+            international pavillions, award-winning fireworks and seasonal special events.</p>
+    </details>
+
+    <!--Inline dfn tag-->
+    <h1>The dfn element</h1>
+    <h3>Just as the content of the dfn element:</h3>
+    <p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p>
+    
+    <br><h3>With the title attribute added:</h3>
+    <p><dfn title="HyperText Markup Language">HTML</dfn> is the standard markup language for creating
+        web pages.</p>
+
+    <br><h3>With an abbr tag inside the dfn element:</h3>
+    <p><dfn><abbr title="HyperText Markup Language">HTML</abbr></dfn> is the standard markup language for creating
+        web pages</p>
+    
+    <br><h3>With the id attribute added. Then whenever a term is used, it can refer back to the definition with an a tag:</h3>
+    <p><dfn id="html-def">HTML</dfn> is the standard markup language for creating web pages.</p>
+
+    <p>This is some text....</p>
+    <p>This is some more text....</p>
+    <p>This is even more text....</p>
+    <p>Learn <a href="#html-def">HTML</a>now.</p>
+    
+    <!--Inline dialog tag-->
+    <h1>The dialog element</h1>
+    <p>This is some text.</p>
+    <p>This is some text.</p>
+    <dialog open>This is an open dialog window</dialog>
+    <p>This is some text.</p>
+    <p><b>Note:</b> The dialog tag is not supported in Safari and Edge.</p>
+    
+    <!--Inline dir tag NOT SUPPORTED IN HTML5-->
+    <!--use ul instead-->
+    <p>This is ul element in place of dir element</p>
+    <ul style="line-height:180%">
+        <li>html</li>
+        <li>xhtml</li>
+        <li>css</li>
+    </ul>
+
+    <!--Inline div tag-->
+    <h1>The div element</h1>
+    <div class="myDiv">
+        <h2>This is a heading in a div element</h2>
+        <p>This is some text in a div element.</p>
+    </div>
+    <p>This is some text outside the div element.</p>
+
+    A div element is displayed like this:
+    <div>This is some text in a div element.</div>
+
+    <!--Inline dl tag-->
+    <h1>The dl, dd, and dt elements</h1>
+    <p>These three elements are used to create a description list:</p>
+
+    <dl>
+        <dt>Breakfast</dt>
+        <dd>Sausage, eggs, bacon, and toast</dd>
+        <dt>Lunch</dt>
+        <dd>PB&J, chips, and banana</dd>
+        <dt>Dinner</dt>
+        <dd>Orange chicken, fried rice, and broccoli</dd>
+    </dl>
+
+    <!--Inline dt tag-->
+    <!--please reference dl and dd terms for examples-->
+</body>
+</html>

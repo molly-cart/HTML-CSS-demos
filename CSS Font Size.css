@@ -1,0 +1,28 @@
+.rogue {
+    grid-area: characterName;
+}
+
+#character {
+    display: grid;
+    grid-template-areas: "characterName characterName . . . .";
+    border-style: solid;
+    border-color: firebrick;
+    border-width: 6px;
+    align-content: center;
+    height: 500px;
+}
+
+#character {
+    background-color: lightblue;
+    padding: 15px;
+    margin: 10px;
+    border-style: solid;
+    border-color: darkmagenta;
+}
+
+#character > div {
+    padding: 5px;
+    margin: 8px;
+    border-style: solid;
+    border-color: snow;
+}

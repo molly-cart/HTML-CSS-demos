@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <title>HTML Tag List NOP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="HTML Tag List NOP.css">
+</head>
+<body>
+
+<!--Inline nav tag-->
+<h1>The nav element</h1>
+<p>The nav element defines a set of navigation links:</p>
+
+<nav>
+    <a href="https://www.w3schools.com/html/" target="_top">HTML</a>
+    <a href="https://www.w3schools.com/css/default.asp" target="_self">CSS</a>
+    <a href="https://www.w3schools.com/js/" target="_blank">JavaScript</a>
+    <a href="https://www.w3schools.com/python/python_intro.asp" target="_parent">Python</a>
+</nav>
+
+<!--Inline noframes tag-->
+<!--NOT SUPPORTED IN HTML 5-->
+<!--USE iframe tag instead-->
+<h1>Use iframe tag instead of noframes tag</h1>
+<iframe src="https://apnews.com" title="AP News"></iframe>
+
+<!--Inline noscript tag-->
+<h1>The noscript element</h1>
+<p>A browser with JavaScript <strong>disabled</strong> will show the text inside the noscript element 
+    ("Hello World!" will not be displayed).
+</p>
+<script>
+    document.write("Hello World")
+</script>
+<noscript> 
+    Sorry, your browser does not support JavaScript!
+</noscript>
+
+<!--Inline object tag-->
+<h1>The object element with an embedded image</h1>
+    <!--Better to use <img> tag-->
+    <object data="Sun, mercury, venus.jpeg" width="100" height="100">
+    </object>
+<h1>The object element with an embedded HTML page</h1>
+    <!--Better to use <iframe> tag-->
+    <object data="Phone html.html" width="300" height="100">
+    </object>
+
+<h1>The object element with an embedded video</h1>
+    <!--Better to use <video> tag-->
+    <object data="5 second countdown.mp4" width="100" height="100">    
+    </object>
+
+<h1>The object element with an embedded audio</h1>
+    <!--Better to use <audio> tag-->
+    <object data="5 second countdown.mp4" width="100" height="100">
+    </object>
+
+<!--Inline ol tag-->
+<h1>The ol element</h1>
+<ol>
+    <li>Toyota</li>
+    <li>Honda</li>
+    <li>Nissan</li>
+</ol>
+<ol start="50">
+    <li>Toyota</li>
+    <li>Honda</li>
+    <li>Nissan</li>
+</ol>
+
+<h1>The ol element + CSS</h1>
+<ol style="list-style-type:upper-roman">
+    <li>Toyota</li>
+    <li>Honda</li>
+    <li>Nissan</li>
+</ol>
+<ol style="list-style-type:lower-latin">
+    <li>Toyota</li>
+    <li>Honda</li>
+    <li>Nissan</li>
+</ol>
+
+<h1>All the different list types for ol + CSS</h1>
+<ol class="a">
+    <li>Armenian type</li>
+    <li>Toyota</li>
+    <li>Honda</li>
+    <li>Nissan</li>
+  </ol>
+  
+  <ol class="b">
+    <li>Cjk-ideographic type</li>
+    <li>Toyota</li>
+    <li>Honda</li>
+    <li>Nissan</li>
+  </ol>
+  
+  <ol class="c">
+    <li>Decimal type</li>
+    <li>Toyota</li>
+    <li>Honda</li>
+    <li>Nissan</li>
+  </ol>
+  
+  <ol class="d">
+    <li>Decimal-leading-zero type</li>
+    <li>Toyota</li>
+    <li>Honda</li>
+    <li>Nissan</li>
+  </ol>
+  
+  <ol class="e">
+    <li>Georgian type</li>
+    <li>Toyota</li>
+    <li>Honda</li>
+    <li>Nissan</li>
+  </ol>
+  
+  <ol class="f">
+    <li>Hebrew type</li>
+    <li>Toyota</li>
+    <li>Honda</li>
+    <li>Nissan</li>
+  </ol>
+  
+  <ol class="g">
+    <li>Hiragana type</li>
+    <li>Toyota</li>
+    <li>Honda</li>
+    <li>Nissan</li>
+  </ol>
+  
+  <ol class="h">
+    <li>Hiragana-iroha type</li>
+    <li>Toyota</li>
+    <li>Honda</li>
+    <li>Nissan</li>
+  </ol>
+  
+  <ol class="i">
+    <li>Katakana type</li>
+    <li>Toyota</li>
+    <li>Honda</li>
+    <li>Nissan</li>
+  </ol>
+  
+  <ol class="j">
+    <li>Katakana-iroha type</li>
+    <li>Toyota</li>
+    <li>Honda</li>
+    <li>Nissan</li>
+  </ol>
+  
+  <ol class="k">
+    <li>Lower-alpha type</li>
+    <li>Toyota</li>
+    <li>Honda</li>
+    <li>Nissan</li>
+  </ol>
+  
+  <ol class="l">
+    <li>Lower-greek type</li>
+    <li>Toyota</li>
+    <li>Honda</li>
+    <li>Nissan</li>
+  </ol>
+  
+  <ol class="m">
+    <li>Lower-latin type</li>
+    <li>Toyota</li>
+    <li>Honda</li>
+    <li>Nissan</li>
+  </ol>
+  
+  <ol class="n">
+    <li>Lower-roman type</li>
+    <li>Toyota</li>
+    <li>Honda</li>
+    <li>Nissan</li>
+  </ol>
+  
+  <ol class="o">
+    <li>Upper-alpha type</li>
+    <li>Toyota</li>
+    <li>Honda</li>
+    <li>Nissan</li>
+  </ol>
+  
+  <ol class="p">
+    <li>Upper-latin type</li>
+    <li>Toyota</li>
+    <li>Honda</li>
+    <li>Nissan</li>
+  </ol>
+  
+  <ol class="q">
+    <li>Upper-roman type</li>
+    <li>Toyota</li>
+    <li>Honda</li>
+    <li>Nissan</li>
+  </ol>
+  
+  <ol class="r">
+    <li>None type</li>
+    <li>Toyota</li>
+    <li>Honda</li>
+    <li>Nissan</li>
+  </ol>
+  
+  <ol class="s">
+    <li>inherit type</li>
+    <li>Toyota</li>
+    <li>Honda</li>
+    <li>Nissan</li>
+  </ol>
+
+
+<h1>Modify lineheight of lists + CSS</h1>
+<p>Reduce line height + CSS:</p>
+<ol style="line-height: 80%">
+    <li>Toyota</li>
+    <li>Honda</li>
+    <li>Nissan</li>
+</ol>
+<p>Expand line height + CSS:</p>
+<ol style="line-height: 180%">
+    <li>Toyota</li>
+    <li>Honda</li>
+    <li>Nissan</li>
+</ol>
+
+<h1>An unordered list inside an ordered list</h1>
+<ol>
+    <li>Toyota</li>
+    <ul>
+        <li>Lexus</li>
+    </ul>
+    <li>Honda</li>
+    <ul>
+        <li>Acura</li>
+    </ul>
+    <li>Nissan</li>
+    <ul>
+        <li>Infinity</li>
+    </ul>
+    <li>Mazda</li>
+    <li>Subaru</li>
+</ol>
+<!--Inline optgroup tag-->
+<p>The outgroup tag is used to group related options in a <strong>drop-down</strong> list:</p>
+<form action="/action_page.php">
+    <label for="cars">Choose a car:</label>
+    <select name="cars" id="cars">
+        <optgroup label="Japanese Cars">
+            <option value="toyota">Toyota</option>
+            <option value="honda">Honda</option>
+            <option value="nissan">Nissan</option>
+        </optgroup>
+        <optgroup label="German Cars">
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+            <option value="volkswagen">Volkswagen</option>
+        </optgroup>
+    </select>
+    <br><br>
+    <input type="submit" value="Submit">
+</form>
+
+<!--Inline option tag-->
+<h1>The option element</h1>
+<label for="cars">Choose a location</label>
+<select id="location">
+    <option value="washington state">Washington State</option>
+    <option value="georgia">Georgia</option>
+    <option value="new york">New York</option>
+</select>
+
+<h1>The datalist element</h1>
+
+<form action="/action_page.php" method="get">
+    <label for="browser">Choose your browser from the list</label>
+    <input list="browsers" name="browser" id="browser">
+    <datalist id="browsers">
+        <option value="Edge"></option>
+        <option value="Firefox"></option>
+        <option value="Chrome"></option>
+        <option value="Opera"></option>
+        <option value="Safari"></option>
+    </datalist>
+    <input type="submit">
+</form>
+<p><strong>Note:</strong> The datalist tag is not supported in Safari 12.0 (or earlier).</p>
+
+<!--Inline output tag-->
+<h1>The output element</h1>
+
+
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  <input type="range" id="a" value="50">
+  +<input type="number" id="b" value="25">
+  =<output name="x" for="a b"></output>
+</form>
+
+<p><strong>Note:</strong> The output element is not supported in Edge 12 (or earlier).</p>
+
+<!--Inline p tag-->
+<h1>Align text with CSS</h1>
+<p style="text-align: center">This si some text in a paragraph.</p>
+
+<h1>Style paragraphs + CSS</h1>
+<p>M1 vs. M2- The main difference between the current and previous-generation 13-inch MacBook Pros is their Apple silicon chip. 
+The ‌M1‌ chip, introduced in November 2020, is based on Apple's A14 Bionic chip. On the other hand, the ‌M2‌ is seemingly based on 
+the A15 Bionic chip. While both chips feature an eight-core CPU with four performance cores and four efficiency cores, the ‌M2‌'s 
+cores offer moderate performance and efficiency improvements. The ‌M2‌ also adds two additional GPU cores.</p>
+
+<p>The main difference between the current and previous-generation 13-inch MacBook Pros is their Apple silicon chip. The ‌M1‌ chip, 
+introduced in November 2020, is based on Apple's A14 Bionic chip. On the other hand, the ‌M2‌ is seemingly based on the A15 Bionic 
+chip. While both chips feature an eight-core CPU with four performance cores and four efficiency cores, the ‌M2‌'s cores offer 
+moderate performance and efficiency improvements. The ‌M2‌ also adds two additional GPU cores.</p>
+
+<p>This paragraph contains a lot of lines in the source code, but the browser ignores it.</p>
+
+<p>This paragraph contains           a lot of spaces in the souce        code, but the     browser ignores it.</p>
+
+<p>The number of lines in a paragraph depends on the size of your browser window. If you resize the browser window, the number of 
+lines in this paragraph will change.
+</p>
+
+<h1>Poem problems with p tag<h1>
+<p>My Bonnie lies over the ocean. My Bonnie lies over the sea. My Bonne lies over the ocean. Oh, bring back my Bonie to me.</p>
+<p>note that the browser simply ignores the line breaks in the source code!</p>
+
+<blockquote style="font-style: italic"><p>My Bonnie lies over the ocean. My Bonnie lies over the sea. My Bonnie lies over the ocean. 
+Oh, bring back my Bonnie to me.</p></blockquote>
+
+<!--Inline param tag-->
+<h1>The param element</h1>
+
+<object data="5 second countdown.mp4">
+  <param name="autoplay" value="true">
+</object>
+
+<!--Inline picture tag-->
+<h1> the picture element</h1>
+<p>Resize the browser window to load different images.</p>
+
+<picture>
+  <source media="(min-width: 650px" srcset="star.png">
+  <source media="(min-width: 465px" srcset="kawaiiwolf.png">
+  <img src="kawaiimarshmellow.png" alt="Kawaii" style="width: auto;">
+</picture>
+
+<!--Inline pre tag-->
+<h1>The pre element</h1>
+<pre>Text in a pre element is displayed in a fixed-width font, and it preserves both       spaces and line breaks.</pre>
+
+<h2>Standard pre</h2>
+<pre>This is a standard pre. It will use as much space as it needs.</pre>
+
+<h2>Fixed width pre</h2>
+<div style="width:200px; overflow:auto">
+  <pre>This is a pre with a fixed width. It will use as much space as specified.
+  </pre>
+</div>
+
+<!--Inline progress tag-->
+<h1>The progress element</h1>
+
+<label for="file">Downloading progress:</label>
+<progress id="file" value="32" max="100"> 32% </progress>
+
+</body>
+</html>

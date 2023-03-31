@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="HTML Tag list A.css">  
+  <link rel="stylesheet" href="https://docs.google.com/document/d/10gVZSkUYfj2J-9DG4vS5g7PWFTIACrudskoOksmnd5Y/edit">
+  <title>Title of the document</title>
+</head>
+<body>
+  <!--Inline <!> tag--> 
+  <!--This is a comment-->
+    <p>This is a paragraph</p>
+    <!--Comments are not displayed in the browser-->
+     
+    <script type="text/javascript">
+    <!--
+    function displayMsg() {
+      alert("Hello World!")
+    }
+    //-->
+    </script>  
+    <!--two forward slashes at the end of the comment line (//) is the JS comment symbol and prevents JS from executing the "- - > " tag-->
+
+  <!--Inline <DOCTYPE> tag-->  
+    The contents of the document.....
+
+  <!--Inline <a> tag--> 
+    <h1>The a element</h1>    
+    <a href="https://www.w3schools.com">Visit W3Schools.com!</a><br>
+
+    <p>Use an image as a link <a href="https://www.w3schools.com"><img border="0" 
+      alt="W3Schools" src="star.png" width="20" height="20"></a></p>
+
+    <h1>The a target attribute</h1>
+    <p>New browser window <a href="https://www.w3schools.com" target="_blank">Visit W3Schools.com!</a></p>
+    <p>If you set the target attribute to a "_blank", the linke will open in a new browser window or a new tab.</p>
+
+    <br><p>To create a link that opens in the user's email program (to let them send a new email), use mailto: inside of
+      href attribute:</p>
+    <br><p>link to email <a href="mailto:molly.cartrow@gmail.com">Send email</a></p>
+
+    <br><p>To create a link to a telephone number, use tel: inside the href attribute:</p>
+    <p>link to a phone number <a href="tel:+4044022826">+40 440 22 826</a></p>
+        
+    <br><p>link to another section on same page <a href="#section2">Go to Section 2</a></p>
+    <p>Nature's first green is gold</p>
+    <p>Her hardest hue to hold</p>
+    <p>Her early leaf's a flower</p>
+    <p>But only so an hour</p>
+    <p>Then leaf subsides to leaf</p>
+    <h2 id="section2">Section 2</h2>
+    <p>So Eden sank to grief</p>
+    <p>So dawn goes down to day</p>
+    <p>Nothing gold can stay</p>
+    <p style="font-style: italic;">~Ponyboy</p> 
+
+    <br><p>link to a JavaScript <a href="javascript:alert('Hello World!');">Execute JavaScript</a></p><br>
+
+  <!--Inline <abbr> tag-->
+    <h1>The abbr element</h1> 
+      <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1984.</p>
+    <h1>The abbr element + the dfn element</h1>
+      <p><dfn><abbr title="Cascading Style Sheets">CSS </abbr></dfn>This is a language that describes the style of an HTML document.</p><br>
+
+  <!--Inline address tag--> 
+    <h1>The address element</h1>
+    <address>Written by <a href="mailto:molly.cartrow@gmail.com">Molly C </a>.<br>Visit us at:<br>google.com<br>Seattle, Washington<br>USA</address><br>
+
+<!--Inline appalet tag--> 
+  <h1>The video element</h1>
+    <video width="320" height="240" controls><source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">Your browser does not support the video tag.
+        </video><br>
+  <h1>The audio element</h1>   
+    <p>Click on the play button to play a sound:</p><audio controls><source src="5 second countdown.mp4" type="audio/ogg"><source src="horse.mp3"
+        type="audio/mpeg">Your browser does not support the audio element.</audio><br>
+  <h1>The embed element</h1>
+    <embed type="text/html" src="CSS blank.html" width="500" height="200"><br>
+        <iframe type="text/html" src="CSS blank.html" width="200" height="200"></iframe><br>
+    <embed type="image/png" src="kawaiipanda.png" width="200" height="200"><br>
+        <img src="kawaiipanda.png" alt="Kawaii Panda" width="100" height="100"><br>
+  <h1>The object element</h1>
+      <object data="CSS blank.html" width="500" height="200"></object><br>
+      <object data="kawaiiwolf.png" width="200" height="200"></object><br>
+
+<!--Inline area tag--> 
+  <h1>The map and area are elements</h1>
+    <p>Click on the computer, phone, or coffee cup to go to a new page and read more about the topic:</p>
+      <img src="laptop, phone,coffee.jpg" alt="Workplace" usemap="#workmap">
+      <map name="workmap">
+        <area shape="rect" coords="278,129,688,197" alt="Computer" href="Computer html.html">
+        <area shape="rect" coords="133,275,165,431" alt="phone" href="Phone html.html">
+        <area shape="circle" coords="783,336,134" alt="Coffee cup" href="Coffee html.html">
+      </map>
+
+<!--Inline article tag--> 
+  <h1>The article element - styles with CSS</h1>
+     
+<article class="all-browser">
+  <h1>Most Popular Browsers</h1>
+
+  <article class="browser">
+    <h2>Google Chrome</h2>
+      <p>Google chrome is a web browser developed by Google, relesaed in 2008. Chrome is the world's most powerful web browser today!</p>
+  </article>
+        
+  <article class="browser">
+    <h2>Mozilla Firefox</h2>
+      <p>Mozilla Firefox is an open-source web browser. Firefox has been the second most popular web browser since 2018.</p>
+  </article> 
+
+  <article class="browser">
+    <h2>Microsoft Edge</h2>
+      <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</article>
+
+<!--Inline audio tag-->     
+  <h1>The audio element</h1>
+     
+  <p>Click on the play button to play a sound:</p>
+    <audio controls><source src="5 second countdown.mp4" type="audio/mpeg"> Your browser does not support the audio element. </audio>
+
+<!--Inline aside tag--> 
+  <h1>The aside element-styles in CSS</h1>
+        
+  <p>My family and I visited the Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family! </p>
+
+  <aside>
+    <h4>Epcot Center</h4>
+      <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.
+      </p>
+  </aside>
+</body>
+</html>

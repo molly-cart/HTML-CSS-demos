@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-u">
+    <link rel="stylesheet" href="HTML Tag List C.css">
+<body>
+    <!--Inline canvas tag-->
+    <h1>The canvas element</h1>
+    <canvas id="myCanvas">Your browser does not support the canvas tag</canvas>
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.fillStyle = "#FF0000";
+        ctx.fillRect(20, 20, 75, 50);
+        //Turn Tansparency on   
+        ctx.globalAlpha = 0.2;
+        ctx.fillStyle = "blue";
+        ctx.fillRect(50, 50, 75, 50);
+        ctx.fillStyle = "green";
+        ctx.fillRect(80, 80, 75, 50);
+    </script>
+
+    <!--Inline caption tag-->
+    <h1>The caption element</h1>
+    <table>
+        <caption style="text-align:right">Monthly Savings</caption>
+        <tr>
+            <th>Month</th>
+            <th>Savings</th>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>$50</td>
+        </tr>
+    </table>
+    <br>
+    <table>
+        <caption style="caption-side:bottom">My Savings</caption>
+        <tr>
+            <th>Month</th>
+            <th>Savings</th>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>$50</td>
+        </tr>
+    </table>
+
+    <!--Inline center tag NOT SUPPORTED IN HTML 5-->
+
+    <!--Inline cite tag-->
+    <h1>The cite element</h1>
+    <img src="The_Scream.jpg" width="200" height="220" alt="The Scream">
+    <p><cite>The Scream</cite>by Edward Munch. Painted in 1893.</p>
+
+    <!--Inline code tag-->
+    <h1>The code element + CSS</h1>
+    <p>The HTML <code>button</code> tag defines a clickable button.</p>
+    <p>The CSS <code>background-color</code> property defines the background color of an element.</p>
+
+    <!--Inline col tag-->
+    <div id="attempt1">
+    <h1>Align text in table columns + CSS</h1>
+    <table style="width:100%">
+        <tr>
+            <th>ISBM</th>
+            <th>Title</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>3476896</td>
+            <td>My first HTML</td>
+            <td style="text-align:right">$53</td>
+        </tr>
+        <tr>
+            <td>2489604</td>
+            <td>My first CSS</td>
+            <td style="text-align:right">$47</td>
+        </tr>
+    </table><br>
+    </div>
+
+    <div id="attempt2">
+    <h1>Vertical-align text in table columns + CSS</h1>
+    <table style="height:200px">
+    <tr>
+        <th>Month</th>
+        <th style="vertical-align:bottom">Savings</th>
+    </tr>
+    <tr>
+        <td>January</td>
+        <td style="vertical-align:bottom">$100</td>
+    </tr>
+    </table>
+    </div>  
+
+    <div id="attempt3">
+        <h1>Specify width of table columns + CSS</h1>
+        <table>
+            <tr>
+                <th style="width:130px">Month</th>
+                <th style="width:80px">Savings</th>
+            </tr>    
+            <tr>
+                <td>January</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>February</td>
+                <td>$80</td>
+            </tr>
+        </table>
+    </div>
+
+    <!--Inline colgroup-->
+
+    <div id="hello">
+        <p>Look how the colgroup element is displayed below:</p>
+        <table>
+            <colgroup>
+                <col span="2" style="background-color:red">
+                <col style="background-color:yellow">
+            </colgroup>
+        <tr>
+            <th>ISBN</th>
+            <th>Title</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>3476896</td>
+            <td>My first HTML</td>
+            <td>$53</td>
+        </tr>
+        <tr>
+            <td>5869207</td>
+            <td>My first CSS</td>
+            <td>$49</td>
+        </tr>
+        </table>
+        <p>Change the default CSS settings to see the effect.</p>
+    </div>
+</body>
+</head>
+</html>

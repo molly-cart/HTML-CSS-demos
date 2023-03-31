@@ -1,0 +1,35 @@
+table, td, th {
+    border: 1px solid lightseagreen;
+}
+
+table > caption {
+    font-size: 15px;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    color: crimson;
+    background-color: #f1f1f1;
+    padding: 2px;
+    font-size: 105%;
+}
+
+#attempt1 table, #attempt1 th, #attempt1 td {
+    border: 1px solid red;
+}
+
+#attempt2 table, #attempt2 th, #attempt2 td {
+    border: 1px solid black;
+}
+
+#attempt3 table, #attempt3 th, #attempt3 td {
+    border: 1px solid gold;
+}
+
+#hello table, #hello th, #hello td {
+    border: 5px solid rgb(82, 75, 79);
+}
+
+colgroup {
+    display: table-column-group;
+}

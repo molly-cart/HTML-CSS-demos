@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="HTML Tag List EF.css">
+<body>
+    <!--Inline em tag-->
+    <h1>The em element</h1>
+    <p>You <em>have</em> to hurry up!</p>
+    <p>We <em>cannot</em> live like this.</p>
+
+    <!--Inline embed tag-->
+    <h1>The embed element</h1>
+    <h3>An embedded image</h3>
+    <embed type="image/png" src="kawaiimarshmellow.png" width="300" height="200">
+        <p>img<br><img src="kawaiimarshmellow.png"></p>
+    <h3>An embedded HTML page</h3>
+    <embed type="text/html" src="HTML Tag list A.html" width="670" height="300">
+        <p>iframe<br><iframe src="HTML Tag List A.html" width=200 height=200></iframe></p>
+    <h3>An embedded video</h3>
+    <embed type="video/mp4" src="5 second countdown.mp4" width="250" height="50">
+        <p>audio<br><audio controls><source src="5 second countdown.mp4" type="audio/mp4"></audio></p>
+
+    <!--Inline fieldset tag-->
+    <h1>The fieldset element + CSS</h1>
+    <form action="/action_page.php">
+        <fieldset>
+            <legend>Personalia:</legend>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+
+    <!--Inline figcaption tag-->    
+    <h1>THe figure and figcaption elements + CSS</h1>
+    <figure>
+        <img src="area coords.png" alt="Area Coords" style="width:100%">
+        <figcaption>Fig.1-Area Coords help</figcaption>
+    </figure>
+
+
+    <!--Inline figure tag-->
+        <!--Look at figcaption for example of figure tag-->
+
+    <!--Inline font tag NOT SUPPORTED IN HTML5-->
+        <!--use with CSS <p style>-->
+    <h1>Set the color of text + CSS</h1>
+        <p style="color:aquamarine">This is a paragraph</p>
+        <p style="color:bisque">This is another paragraph.</p>
+    <h1>Set the font of text + CSS</h1>
+        <p style="font-family:verdana">This is a paragraph</p>
+        <p style="font-family: Courier New">This is another paragraph.</p>
+    <h1>Set the size of text + CSS</h1>
+        <p style="font-size: 25px">This is a paragraph</p>
+        <p style="font: size 15px;">This is another paragraph.</p>
+
+    <!--Inline footer tag-->
+    <h1>The article and footer elements + CSS</h1>
+    <article class="all-browsers">
+        <h1>Most Popular Browsers</h1>
+        <article class="browser">
+            <h2>Google Chrome</h2>
+            <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's
+                most popular web browser today!</p>
+        </article>
+        <article class="browser">
+            <h2>Mozilla Firefox</h2>
+            <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second
+                most popular web browser since January 2018.</p>
+        </article>
+        <article class="browser">
+            <h2>Microsoft Edge</h2>
+            <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge
+                replaced Internet Explorer.</p>
+        </article>
+    </article>
+
+    <h1>The footer element</h1>
+    <footer>
+        <p>Author: Hege Refsnes<br> 
+        <a href="mailto:hege@example.com">hege@example.com</a></p>
+    </footer>
+
+    <!--Inline form tag-->
+    <h1>Form with checkboxes</h1>
+    <form action="/action_page.php" method="get">
+        <input type="checkbox" name="vehicle1" value="Bike"
+        <label for="vehicle1">I have a bike</label><br>
+        <input type="checkbox" name="vehicle" value="Car">
+        <label for="vehicle2">I have a car</label><br>
+        <input type="checkbox" name="vehicle3" value="Boat"
+        <label for="vehicle3">I have a boat</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h1>Form with radiobuttons</h1>
+    <form action="/action_page.php" method="get">
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS" checked="checked">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <!--Inline frame tag NOT SUPPORTED IN HTML5-->
+        <!--use iframe tag instead-->
+    <h1>The iframe tag</h1>
+    <iframe src="https://apnews.com" title="Local Weather" width="100%" height="325px"></iframe>
+        <!--can access on google chrome-->
+
+    <!--Inline frameset tag-->
+        <!--use iframe tag instead-->
+        <!--refer to iframe tag and frame tag for examples-->
+    
+</body>
+</head>
+</html>

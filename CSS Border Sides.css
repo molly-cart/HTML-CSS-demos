@@ -1,0 +1,10 @@
+div {
+    border-top:double 8px;
+    border-right: solid 8px;
+    border-bottom:double 8px;
+    border-left:double 8px;
+    border-style: dotted double groove inset;
+    border-color: orange red blue lime;
+    border-width: 10px;
+    width: 200px;
+}

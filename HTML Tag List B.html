@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="HTML Tag List B.css">
+    <!--inline base tag-->
+        <base href="https://www.w3schools.com/" target="_blank">
+</head>
+<body>
+    <!--Inline b tag-->
+    
+    <h1>Use CSS To Set Bold Text</h1>
+    <p>This is normal text - <span style="font-weight:bold;"> and this is bold text</span>.</p>
+    <p>This is normal text - <b>and this is bold text</b>.</p><br>
+
+    <!--Inline base tag-->
+    <p><img src="images/stickman.gif" width="24" height="39" alt="Wokf">-Only specified a relative address for the image. Since we have specified a base URL in the head section, the 
+        browser will look for the image at www3schools.com/images/stickman.gif".</p>
+    <p><a href="tags/tag_base.asp">HTML base Tag</a>-Notice the link opens in a new window, even if 
+        it has no target="_blank" attribute. This is because the target attribute of the base element 
+        is set to "_blank".</p><br>
+
+    <!--Inline basefont tag NOT SUPPORTED IN HTML5-->
+    <div class="basefont">
+        <h1>This is a heading</h1>
+        <p>This is a paragraph</p>
+    </div><br>
+
+    <!--Inline bdi tag-->
+    <h1>The bdi element</h1>
+    <p>In the example below usernames are shown along with the number of points in a contest. If the bdi 
+        element is not supported in the browser, the username of the Arabic user would confuse
+        the text (the bidirectional algorithim would put the colon and the number "90" next to the word
+        "User" rather than next to the word "points)."
+    </p>
+    <ul>
+        <li>User <bdi>hrefs</bdi>: 60 points</li>
+        <li>User <bdi>jdoe</bdi>: 80 points</li>
+        <li>User <bdI>إيان</bdI>: 90 points</li>
+    </ul><br>
+    
+    <!--Inline bdo tag-->
+    <h1>The bdo element</h1>
+    <p><bdo dir="ltr">This paragraph will go left-to-right.</bdo></p>
+    <p><bdo dir="rtl">This paragraph will go right-to-left.</bdo></p><br>
+    
+    <!--Inline big tag NOT SUPPORTED IN HTML 5--> 
+
+    <!--Inline blockquote tag-->
+    <h1>Blockquote and CSS</h1>
+    <p>Use CSS to remove the indention from the blockquote element</p>
+    <p>Here is a quote from WWF's website:</p>
+    <blockquote cite="https://www.worldwildlife.org/who/index.html">For 50 years, WWF has been protecting the 
+    future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported 
+    by 1.2 million members in the United States and close to 5 million globally.
+    </blockquote><br>
+
+    <!--Inline body tag-->
+
+    <!--Inline br tag-->
+    <h1>The br element</h1>
+    <p>To force<br> line breaks<br> in a text,<br> use the br<br> element.</p>
+       
+    <h1>A Poem</h1>
+    <p>Be not afraid of greatness.<br> Some are born great,<br> some achieve greatness,<br> and others have greatness
+    thrust upon them.</p>
+    <p><em>William Shakespeare</em></p>
+
+    <!--Inline button tag-->
+    <h1>The button element</h1>
+    <button type="button" onclick="alert('Hello World')">Click Me!</button>
+
+    <h1>The button element- styled in CSS</h1>
+    <p>Use the :hover selector to change the style of the button when you move the mouse over it.</p>
+    <p><strong>Tip:</strong>Use the transition-duration property to determine the speed of the "hover" effect:</p>
+        <button class="button button1">Green</button>
+        <button class="button button2">Blue</button>
+</body>
+</html>

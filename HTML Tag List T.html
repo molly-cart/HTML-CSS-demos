@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html="en-US">
+<head>
+    <title>HTML Tag List T</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="HTML Tag List T.css">
+</head>
+<body>
+
+<!--Inline table tag-->
+<h1>The table element</h1>
+<table class="center">
+    <caption>Cost of computer parts</caption>
+    <tr>
+        <th>Part</th>
+        <th>Low Price</th>
+        <th>High Price</th>
+    </tr>
+    <tr>
+        <td>CPU</td>
+        <td>$ 359.00</td>
+        <td>$ 465.00</td>
+    </tr>
+    <tr>
+        <td>Motherboard</td>
+        <td>$ 219.00</td>
+        <td>$ 280.00</td>
+    </tr>
+    <tr>
+        <td>Hard Drive</td>
+        <td>$ 154.99</td>
+        <td>$ 353.00</td>
+    </tr>
+    <tr>
+        <td>Case</td>
+        <td>$ 150.00</td>
+        <td>$ 220.00</td>
+    </tr>
+    <tr>
+        <td>Power Supply</td>
+        <td>$ 135.00</td>
+        <td>$ 240.00</td>
+    </tr>
+    <tr>
+        <td>RAM</td>
+        <td>$ 85.00</td>
+        <td>$ 190.00</td>
+    </tr>
+    <tr>
+        <td>Sound Card</td>
+        <td>$ 79.00</td>
+        <td>$ 85.00</td>
+    </tr>
+    <tr>
+        <td>Network Card</td>
+        <td>$ 55.00</td>
+        <td>$ 65.00</td>
+    </tr>
+    <tfoot>
+        <tr>
+            <td><b>Total</b></td>
+            <td><b>$ 1,236.99</b></td>
+            <td><b>$ 1,898.00</b></td>
+        </tr>
+    </tfoot>
+</table>
+
+<h3>Horizontal header</h3>
+<table>
+    <tr>
+        <th>Part</th>
+        <th>Low Price</th>
+        <th>High Price</th>
+    </tr>
+    <tr>
+        <td>CPU</td>
+        <td>$ 359.00</td>
+        <td>$ 465.00</td>
+    </tr>
+</table>
+
+<h3>Vertical header</h3>
+<table>
+  <tr>
+    <th>Part</th>
+    <td>CPU</td>
+  </tr>
+  <tr>
+    <th>Low Price</th>
+    <td>$ 359.00</td>
+  </tr>
+  <tr>
+    <th>High Price</th>
+    <td>$ 465.00</td>
+  </tr>
+</table>
+
+<h3>Cell that spans 2 columns:</h3>
+<table>
+    <tr>
+        <th>Part</th>
+        <th>Low Price</th>
+        <th colspan="2">High Price ranges</th>
+    </tr>
+    <tr>
+        <td>CPU</td>
+        <td>$ 359.00</td>
+        <td>$ 465.00-</td>
+        <td>$ 550.00</td>
+    </tr>
+</table>
+
+<h3>Cell that spans 2 rows:</h3>
+<table>
+    <tr>
+        <th>Part</th>
+        <td>CPU</td>
+    </tr>
+    <tr>
+        <th>Low Price</th>
+        <td>$ 359.00</td>
+    </tr>
+    <tr>
+        <th rowspan="2">High Price</th>
+        <td>$ 465.00</td>
+    </tr>
+    <tr>
+        <td>$ 550.00</td>
+    </tr>
+</table>
+
+<!--Inline tbody tag-->
+<br><table class="Para3" style="width: 50%">
+    <thead id="firsthead">
+        <tr>
+            <th>Part</th>
+            <th>Low Price</th>
+            <th>High Price</th>
+        </tr>
+    </thead>
+    <tbody id="firstbody" style="vertical-align:top">
+        <tr style="height:100px">
+            <td>CPU</td>
+            <td>$ 359.00</td>
+            <td>$ 465.00</td>        
+        </tr>
+        <tr style="height:100px">
+            <td>Motherboard</td>
+            <td>$ 219.00</td>
+            <td>$ 280.00</td>
+        </tr>
+        <tr style="height: 100px">
+            <td>Hard Drive</td>
+            <td>$ 154.99</td>
+            <td>$ 353.00</td>
+        </tr>
+        <tr>
+            <td>Case</td>
+            <td>$ 150.00</td>
+            <td>$ 220.00</td>
+        </tr>
+    </tbody>
+    <tfoot id="firstfoot" style="text-align: right">
+        <tr>
+            <td>Total</td>
+            <td>$ 1,236.99</td>
+            <td>$ 1,898.00</td>
+        </tr>
+    </tfoot>
+</table>
+
+<!--Inline td tag-->
+<h1>The td element</h1>
+<h4>The td element defines a cell in a table</h4>
+<table id="spacious">
+    <tr>
+        <td>Part</td>
+        <td>CPU</td>
+    </tr>
+    <tr>
+    <td style="background-color: #c7dfd4; height:45px">Low Price</td>
+        <td>$ 359.00</td>
+    </tr>
+    <tr>
+        <td style="background-color: #c7df; height:45px">High Price</td>
+        <td>$ 465.00</td>
+    </tr>
+</table>
+
+<h4>Add Nowrap to td</h4>
+<table>
+    <tr>
+        <td>Poem</td>
+    </tr>
+    <tr>
+        <td style="white-space:nowrap">Never increase, beyond what is necessary, the number
+        of entities required to explain anything.</td>
+    </tr>
+</table>
+
+<h4>Vertical-align content in td</h4>
+<table>
+    <tr style="border:1px solid blue">
+        <th>Part</th>
+        <th>Low Price</th>
+        <th>High Price</th>
+    </tr>
+    <tr style="height:100px; border:10px ridge red">
+        <td style="vertical-align:bottom">CPU</td>
+        <td style="vertical-align:bottom">$ 359.00</td>
+        <td style="vertical-align:bottom">$ 465.00</td>
+    </tr>
+</table>
+
+<!--Inline template tag--><!--Only one on page-->
+<h1>THe template element</h1>
+<p>Click the button below to display the hidden content from the template element.</p>
+<button onclick="showContent()">Show hidden content</button>
+
+<template>
+    <h2>Kawaii</h2>
+    <img src="kawaiistrawberry.png" width="214" height="214">
+</template>
+
+<script>
+    function showContent() {
+        var temp = document.getElementsByTagName("template")[0];
+        var clon = temp.content.cloneNode(true);
+        document.body.appendChild(clon);
+    }
+</script>
+
+<h1>The template Element</h1>
+<p>This example fills the web page with one new div element for each item in an array.</p>
+<p>The HTML code of each div element is inside the template element.</p>
+
+<p>Click the button below to display the hidden content from the template element.</p>
+<button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <div class="myClass">I like: </div>
+</template>
+
+<script>
+var myArr = ["Audi", "BMW", "Ford", "Honda", "Jaguar", "Nissan"];
+
+function showContent() {
+  var temp, item, a, i;
+  temp = document.getElementsByTagName("template")[0];
+  // get the div element from the template:
+  item = temp.content.querySelector("div");
+  // for each item in the array
+  for (i = 0; i < myArr.length; i++) {
+    // create a new node, based on the template
+    a = document.importNode(item, true);
+    // add data from the array
+    a.textContent += myArr[i];
+    //append the new node wherever you like:
+    document.body.appendChild(a);
+  }
+}
+</script>
+
+
+<h1>Test template Support</h1>
+<script>
+    if (document.createElement("template").content){
+        document.write("Your browser supports template!"); 
+    } else {
+            document.write("Your browser does not support template!");
+    }
+</script>
+</body>
+</html>

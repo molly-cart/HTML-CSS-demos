@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>HTML Tag List QR</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="HTML Tag List QR.css">
+</head>
+<body> 
+
+<!--Inline q tag-->
+<h1>The q element + CSS</h1>
+
+<p>WWF's goal is to:
+<q>Build a future where people live in harmony with nature.</q>
+We hope they succeed.</p>
+
+<!--Inline rp tag-->
+<h1>The rp element</h1>
+
+<ruby>
+漢 <rp>(</rp><rt>Kan</rt><rp>)</rp>
+字 <rp>(</rp><rt>ji</rt><rp>)</rp>
+</ruby>
+
+<!--Inline rt tag-->
+<h1>The ruby and rt elements</h1>
+<ruby>
+    漢 <rt>ㄏㄢˋ</rt>
+</ruby>
+
+<!--Inline ruby tag-->
+<h1>The ruby element</h1>
+
+<ruby>
+    雨嘉<rp>(</rp><rt>Yujia</rt><rp>)</rp>
+    明日<rp>(</rp><rt>Ashita</rt><rp>)</rp>
+</ruby>
+
+
+
+<svg viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+    <!-- Some graphical objects to use -->
+    <defs>
+      <circle id="myCircle" cx="0" cy="0" r="5" />
+  
+      <linearGradient id="myGradient" gradientTransform="rotate(90)">
+        <stop offset="20%" stop-color="gold" />
+        <stop offset="90%" stop-color="red" />
+      </linearGradient>
+    </defs>
+  
+    <!-- using my graphical objects -->
+    <use x="5" y="5" href="#myCircle" fill="url('#myGradient')" />
+  </svg>
+  
+</body>
+</html>

@@ -1,0 +1,54 @@
+fieldset {
+    background-color: #eeeeee;
+}
+
+legend {
+    background-color: gray;
+    color: white;
+    padding: 5px 10px;
+}
+
+input {
+    margin: 5px;
+}
+
+figure {
+    border: 1px #cccccc solid;
+    padding: 4px;
+    margin: auto;
+}
+
+figcaption {
+    background-color: rgb(242, 179, 52);
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align:center;
+}
+
+.all-browsers {
+    margin: 0;
+    padding: 5px;
+    background-color: lightgray;
+}
+
+.all-browsers > h1, .browser {
+    margin: 10px;
+    padding: 5px;
+}
+
+.browser {
+    background: white;
+}
+
+.browser > h2, p {
+    margin: 4px;
+    font-size: 90%;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgba(77, 17, 133, 0.371);
+    color:gainsboro;
+}

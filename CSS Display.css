@@ -1,0 +1,13 @@
+#target {
+    display: none;
+    color: white;
+    background-color: blue;
+    width: 200px;
+    padding: 100px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    border-style: solid;
+    border-color: darkgoldenrod;
+    border-width: 15px
+}

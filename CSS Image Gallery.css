@@ -1,0 +1,63 @@
+/* CSS Sprites */
+/* Used canva and freepix icons */
+
+.icon {
+    width: 64px;
+    height: 64px;
+    background-image: url('Canvasprite.png');
+    display: inline-block;
+    margin: 0 10px 0 0;   
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+#location {
+    background-position: 3px 0;
+    transition: all .1s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+    -o-tansition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+}
+
+#love {
+    background-position: -61px 0;
+    transition: all .1s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+    -o-tansition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+}
+
+#target {
+    background-position: -124px 0;
+    transition: all .1s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+    -o-tansition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+}
+
+#star {
+    background-position: -190px 0;
+    transition: all .1s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+    -o-tansition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+}
+
+#location:hover {
+    background-position: 0 -64px;
+}
+
+#love:hover {
+    background-position: -64px -64px;
+}
+
+#target:hover {
+    background-position: -128px -64px;
+}
+
+#star:hover {
+    background-position: -192px -64px;
+}
+
